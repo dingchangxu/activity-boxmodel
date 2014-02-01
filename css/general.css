@@ -25,3 +25,67 @@ img {
 	width: 100%;
     display: block;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.masthead {
+    background-color: red;
+    overflow: hidden;
+}
+
+.logo {
+    height: 8rem;
+    width: auto;
+    margin: 1rem auto;
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 1.5rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-shadow: #999 3px 3px;
+    
+}
+
+h1 + p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+P {
+    line-height: 1.5rem;
+    margin: .5rem 0 0;
+}
+footer {
+    background-color: gray;
+    overflow: hidden
+}
+
+footer p {
+    font-size: 1rem;
+    margin: .5rem 5% 5rem;
+}
+
+footer a {
+    color: white;
+    text-shadow: #111 2px 2px;   
+}
+
+em {
+    color: blue;
+    font-weight: bold;
+}
+
+hr {
+    border: solid 2px #999;  
+}
